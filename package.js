@@ -2,9 +2,9 @@ Package.describe({
   name: 'clinical:json2json',
   version: '0.0.1',
   // Brief, one-line summary of the package.
-  summary: '',
+  summary: 'JSON transformation library for data pipelines using the json2json library.',
   // URL to the Git repository containing the source code for this package.
-  git: '',
+  git: 'https://github.com/awatson1978/clinical-json2json',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
