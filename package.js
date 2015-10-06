@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:json2json',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'JSON transformation library for data pipelines using the json2json library.',
   // URL to the Git repository containing the source code for this package.
@@ -23,5 +23,5 @@ Package.onUse( function (api) {
 Package.onTest( function (api) {
   api.use('tinytest');
   api.use('clinical:json2json');
-  api.addFiles('json2json-tests.js');
+  api.addFiles('tests/json2json.js');
 });
